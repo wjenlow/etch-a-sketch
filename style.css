@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header{
+    margin-top: 40px;
+    background-color: black;
+    color: darkcyan;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+}
+body{
+    background-color: black;  
+    text-align: center;  
+}
+.container {
+    padding: 1rem;
+}
+.button{
+    margin-top: 5px;
+    color: #222;
+    background-color: darkcyan;
+    border-radius: 6px;
+    padding: 5px;
+    border-color: whitesmoke;
+    font-family: sans-serif;
+}
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid #222;
+}
+.grid-element {
+    border: 1px solid #222;
+    background-color: white;
+    cursor: pointer;
+}
